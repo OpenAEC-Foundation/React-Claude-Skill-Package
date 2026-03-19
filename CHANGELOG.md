@@ -4,7 +4,7 @@ All notable changes to the React Claude Skill Package will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [Unreleased]
+## [1.0.1] - 2026-03-19
 
 ### Fixed
 - Migrated all 24 YAML descriptions from quoted strings to folded block scalar (`>`) format
@@ -35,6 +35,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Infrastructure
 - Repository initialized with 7-phase research-first methodology
 - Core files: CLAUDE.md, ROADMAP.md, REQUIREMENTS.md, DECISIONS.md, SOURCES.md, WAY_OF_WORK.md, LESSONS.md
-- 15 architectural decisions (7 in DECISIONS.md + 8 in masterplan)
+- 17 architectural decisions in DECISIONS.md (D-001 through D-017)
 - MIT License, .gitignore
 - Research verified against official React documentation (react.dev)
