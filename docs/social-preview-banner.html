@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Preview Banner — React Skill Package</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #1A1A2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .banner {
+    width: 1280px;
+    height: 640px;
+    background: #1A1A2E;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+  }
+
+  /* React gradient top strip */
+  .top-strip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #61DAFB 0%, #3178C6 50%, #A855F7 100%);
+  }
+
+  /* Subtle blueprint grid */
+  .banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(97,218,251,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(97,218,251,0.03) 1px, transparent 1px);
+    background-size: 30px 30px;
+    pointer-events: none;
+  }
+
+  /* Subtle React atom background */
+  .banner::after {
+    content: '⚛';
+    position: absolute;
+    right: -40px;
+    top: -60px;
+    font-size: 500px;
+    color: rgba(97,218,251,0.04);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Left content */
+  .left {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    padding: 72px 40px 56px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .number {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    color: #FAFAF9;
+    line-height: 0.85;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #61DAFB;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+  }
+
+  .subtitle {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 17px;
+    color: #A1A1AA;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+
+  /* Technology badges */
+  .badges {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+  }
+
+  .badge {
+    font-family: 'Inter', system-ui, sans-serif;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid;
+  }
+
+  .badge-react      { border-color: #61DAFB; color: #61DAFB; }
+  .badge-typescript  { border-color: #3178C6; color: #3178C6; }
+  .badge-hooks       { border-color: #A855F7; color: #A855F7; }
+
+  .versions {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    color: #A1A1AA;
+    letter-spacing: 0.05em;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .versions .sep {
+    color: #2A2A3E;
+  }
+
+  /* Right code window */
+  .right {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    padding: 56px 56px 56px 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  .code-window {
+    width: 100%;
+    background: rgba(42, 42, 62, 0.8);
+    border: 1px solid rgba(97,218,251,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3);
+    max-height: 100%;
+  }
+
+  .code-window * {
+    overflow: hidden;
+  }
+
+  .code-titlebar {
+    background: rgba(26, 26, 46, 0.95);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid rgba(97,218,251,0.06);
+  }
+
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-red    { background: #DC2626; }
+  .dot-yellow { background: #F59E0B; }
+  .dot-green  { background: #16A34A; }
+
+  .code-filename {
+    color: #A1A1AA;
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .code-body {
+    padding: 20px 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #FAFAF9;
+  }
+
+  .comment  { color: #6B7280; }
+  .keyword  { color: #A855F7; }
+  .function { color: #61DAFB; }
+  .string   { color: #34D399; }
+  .operator { color: #F59E0B; }
+  .type     { color: #3178C6; }
+  .hook     { color: #61DAFB; }
+  .jsx      { color: #F472B6; }
+  .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 17px;
+    background: #61DAFB;
+    vertical-align: text-bottom;
+  }
+
+  /* Foundation branding bottom-right */
+  .foundation {
+    position: absolute;
+    bottom: 28px;
+    right: 44px;
+    text-align: right;
+    z-index: 1;
+  }
+
+  .foundation-name {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+
+  .foundation-name .open { color: #FAFAF9; }
+  .foundation-name .aec  { color: #61DAFB; }
+
+  .foundation-sub {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 11px;
+    color: #A1A1AA;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div class="top-strip"></div>
+
+    <!-- Left: text content -->
+    <div class="left">
+      <div class="number">24</div>
+      <div class="title">Deterministic Skills</div>
+      <div class="subtitle">for expert-level React 18 &amp; 19 development</div>
+
+      <div class="badges">
+        <div class="badge badge-react">React 18 + 19</div>
+        <div class="badge badge-typescript">TypeScript</div>
+        <div class="badge badge-hooks">18 Hooks</div>
+      </div>
+
+      <div class="versions">
+        React 18.x &amp; 19.x <span class="sep">│</span> TSX <span class="sep">│</span> 200+ Anti-patterns
+      </div>
+    </div>
+
+    <!-- Right: code window -->
+    <div class="right">
+      <div class="code-window">
+        <div class="code-titlebar">
+          <div class="dot dot-red"></div>
+          <div class="dot dot-yellow"></div>
+          <div class="dot dot-green"></div>
+          <span class="code-filename">App.tsx</span>
+        </div>
+        <div class="code-body">
+          <span class="comment">// ALWAYS type props with interfaces</span><br>
+          <span class="keyword">interface</span> <span class="type">UserCardProps</span> {<br>
+          &nbsp;&nbsp;name: <span class="type">string</span>;<br>
+          &nbsp;&nbsp;role: <span class="type">string</span>;<br>
+          }<br>
+          <br>
+          <span class="comment">// ALWAYS use function declaration</span><br>
+          <span class="keyword">function</span> <span class="function">UserCard</span>({ name, role }: <span class="type">UserCardProps</span>) {<br>
+          &nbsp;&nbsp;<span class="keyword">const</span> [count, setCount] <span class="operator">=</span> <span class="hook">useState</span>(0);<br>
+          <br>
+          &nbsp;&nbsp;<span class="hook">useEffect</span>(() <span class="operator">=></span> {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;document.title <span class="operator">=</span> <span class="string">`${name}'s profile`</span>;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> () <span class="operator">=></span> { <span class="comment">/* cleanup */</span> };<br>
+          &nbsp;&nbsp;}, [name]);<br>
+          <br>
+          &nbsp;&nbsp;<span class="keyword">return</span> <span class="jsx">&lt;div&gt;</span>{name} — {role}<span class="jsx">&lt;/div&gt;</span>;<br>
+          }<span class="cursor"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Foundation brand -->
+    <div class="foundation">
+      <div class="foundation-name"><span class="open">Open</span><span class="aec">AEC</span></div>
+      <div class="foundation-sub">Foundation</div>
+    </div>
+  </div>
+</body>
+</html>
