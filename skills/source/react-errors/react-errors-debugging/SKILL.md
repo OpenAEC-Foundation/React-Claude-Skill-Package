@@ -1,6 +1,12 @@
 ---
 name: react-errors-debugging
-description: "Guides React debugging including React DevTools usage, Strict Mode double-rendering behavior, console warning interpretation, performance profiling with Profiler, component stack traces, common error messages and solutions, and development vs production error differences. Activates when debugging React applications, interpreting console warnings, profiling performance, or understanding Strict Mode behavior."
+description: >
+  Use when debugging React applications, interpreting console warnings, profiling
+  performance, or understanding Strict Mode double-rendering. Prevents the common
+  mistake of ignoring React warnings or misdiagnosing Strict Mode behavior as
+  bugs. Covers React DevTools, Strict Mode, console warnings, Profiler, component
+  stack traces, development vs production error differences.
+  Keywords: DevTools, Strict Mode, Profiler, console warnings, stack traces.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

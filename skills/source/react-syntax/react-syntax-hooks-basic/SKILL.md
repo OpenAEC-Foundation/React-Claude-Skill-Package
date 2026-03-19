@@ -1,6 +1,12 @@
 ---
 name: react-syntax-hooks-basic
-description: "Guides the 7 essential React hooks: useState for local state, useEffect for side effects, useContext for context consumption, useRef for DOM refs and mutable values, useMemo for expensive computations, useCallback for stable function references, and useReducer for complex state. Covers Rules of Hooks, dependency arrays, and cleanup patterns. Activates when using any core React hook, writing side effects, managing component state, or optimizing re-renders."
+description: >
+  Use when using any core React hook, writing side effects, managing component
+  state, or optimizing re-renders. Prevents the common mistake of missing
+  dependency array entries or forgetting useEffect cleanup. Covers useState,
+  useEffect, useContext, useRef, useMemo, useCallback, useReducer, Rules of
+  Hooks, dependency arrays, cleanup patterns.
+  Keywords: useState, useEffect, useRef, useMemo, useCallback, useReducer, hooks.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

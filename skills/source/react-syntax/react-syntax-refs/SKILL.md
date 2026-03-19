@@ -1,6 +1,12 @@
 ---
 name: react-syntax-refs
-description: "Guides React ref patterns including useRef for DOM access and mutable values, forwardRef with TypeScript generics, useImperativeHandle for exposing component APIs, callback refs, ref cleanup in React 19, and ref as prop in React 19. Activates when accessing DOM elements, forwarding refs to child components, implementing imperative APIs, or managing mutable values across renders."
+description: >
+  Use when accessing DOM elements, forwarding refs to child components,
+  implementing imperative APIs, or managing mutable values across renders.
+  Prevents the common mistake of using refs for values that should trigger
+  re-renders. Covers useRef, forwardRef, useImperativeHandle, callback refs,
+  React 19 ref cleanup, React 19 ref as prop.
+  Keywords: useRef, forwardRef, useImperativeHandle, callback ref, DOM access.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

@@ -1,6 +1,12 @@
 ---
 name: react-agents-review
-description: "Validates generated React code for correctness by checking Rules of Hooks compliance, TypeScript type safety, performance anti-patterns, accessibility, Server Component boundaries, proper state management, event handling cleanup, and testing patterns. Activates when reviewing React code, validating a React project, checking for common mistakes, or performing code review."
+description: >
+  Use when reviewing React code, validating a React project, or performing code
+  review for correctness. Prevents shipping code with Rules of Hooks violations,
+  type safety gaps, performance anti-patterns, or accessibility issues. Covers
+  hooks compliance, TypeScript safety, Server Component boundaries, state
+  management, event cleanup, testing patterns.
+  Keywords: code review, validation, Rules of Hooks, anti-patterns, accessibility.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

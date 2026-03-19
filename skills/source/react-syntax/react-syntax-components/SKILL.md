@@ -1,6 +1,12 @@
 ---
 name: react-syntax-components
-description: "Guides React component patterns including function component typing, props with TypeScript interfaces, children patterns, React.memo for performance, forwardRef for ref forwarding, React.lazy for code splitting, createPortal for rendering outside the DOM tree, compound components, render props, and higher-order components. Activates when creating components, typing props, forwarding refs, or implementing component composition patterns."
+description: >
+  Use when creating components, typing props with TypeScript, forwarding refs, or
+  implementing component composition patterns. Prevents the common mistake of
+  using incorrect prop typing or missing forwardRef when exposing DOM elements.
+  Covers function component typing, children patterns, React.memo, forwardRef,
+  React.lazy, createPortal, compound components, render props, HOCs.
+  Keywords: component, props, children, forwardRef, React.memo, Portal, lazy.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

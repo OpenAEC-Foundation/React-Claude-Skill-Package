@@ -1,6 +1,12 @@
 ---
 name: react-syntax-hooks-advanced
-description: "Guides advanced React hooks: useId for accessible IDs, useTransition for non-blocking state updates, useDeferredValue for deferred rendering, useSyncExternalStore for external store subscriptions, useInsertionEffect for CSS-in-JS, useDebugValue for DevTools. React 19 hooks: use() for promises and context, useActionState for form actions, useOptimistic for optimistic UI, useFormStatus for pending form state. Activates when using advanced hooks, integrating external stores, or working with React 19 form features."
+description: >
+  Use when working with advanced hooks, integrating external stores, or using
+  React 19 form and promise hooks. Prevents the common mistake of using useEffect
+  for subscriptions instead of useSyncExternalStore. Covers useId, useTransition,
+  useDeferredValue, useSyncExternalStore, useInsertionEffect, useDebugValue,
+  React 19 use(), useActionState, useOptimistic, useFormStatus.
+  Keywords: useId, useSyncExternalStore, use(), useActionState, useOptimistic.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

@@ -1,6 +1,12 @@
 ---
 name: react-errors-boundaries
-description: "Guides React error boundary implementation including getDerivedStateFromError for fallback UI, componentDidCatch for error logging, error boundary placement strategy, error recovery patterns, nested boundaries, and error boundary limitations. Activates when implementing error handling, creating fallback UI, catching render errors, or designing error recovery in React applications."
+description: >
+  Use when building React components that need error recovery and graceful
+  failure handling. Prevents the common mistake of letting uncaught errors
+  crash the entire application tree. Covers Error Boundary class components,
+  getDerivedStateFromError, componentDidCatch, recovery patterns, nested
+  boundaries, placement strategy, error boundary limitations.
+  Keywords: ErrorBoundary, getDerivedStateFromError, componentDidCatch, fallback UI.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:
@@ -266,7 +272,7 @@ Inner boundaries catch errors first. If the inner boundary itself fails, the out
 
 ## react-error-boundary Library
 
-The `react-error-boundary` package provides a function-component-based API. ALWAYS consider using this library instead of writing custom class components.
+The `react-error-boundary` package provides a function-component-based API. ALWAYS use this library instead of writing custom class components.
 
 ```bash
 npm install react-error-boundary

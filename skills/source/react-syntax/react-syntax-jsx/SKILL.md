@@ -1,6 +1,12 @@
 ---
 name: react-syntax-jsx
-description: "Guides JSX and TSX syntax including expressions in JSX, conditional rendering patterns, rendering lists with keys, fragments, TypeScript generics for components, JSX spread attributes, and embedding JavaScript expressions. Activates when writing JSX/TSX, rendering lists, conditional rendering, or typing React components with TypeScript generics."
+description: >
+  Use when writing JSX/TSX, rendering lists, implementing conditional rendering,
+  or typing components with TypeScript generics. Prevents the common mistake of
+  using unstable keys (like array index) or missing key props on list items.
+  Covers JSX expressions, conditional rendering, list rendering with keys,
+  fragments, TypeScript generics, spread attributes.
+  Keywords: JSX, TSX, conditional rendering, key, Fragment, map, expressions.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

@@ -70,4 +70,4 @@
 | Anti-patterns documented | 200+ |
 | Research fragments | 3 |
 | Lessons logged | 2 |
-| Decisions recorded | 15 |
+| Decisions recorded | 17 |

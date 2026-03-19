@@ -1,6 +1,12 @@
 ---
 name: react-impl-data-fetching
-description: "Guides React data fetching patterns including TanStack Query for server state management, useQuery and useMutation patterns, Suspense for loading states, React 19 use() hook for promises, error boundaries for fetch errors, caching strategies, optimistic updates, and pagination patterns. Activates when fetching data from APIs, managing server state, implementing loading/error states, or choosing a data fetching strategy."
+description: >
+  Use when fetching data from APIs, managing server state, implementing loading
+  and error states, or choosing a data fetching strategy. Prevents the common
+  mistake of fetching in useEffect without proper caching or race condition
+  handling. Covers TanStack Query, useQuery, useMutation, Suspense, React 19
+  use() hook, caching, optimistic updates, pagination.
+  Keywords: TanStack Query, useQuery, useMutation, fetch, use(), server state.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

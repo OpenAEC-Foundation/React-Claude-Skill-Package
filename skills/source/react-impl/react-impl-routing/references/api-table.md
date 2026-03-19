@@ -181,3 +181,14 @@ function InlineDelete({ projectId }: { projectId: string }): React.ReactElement 
   );
 }
 ```
+
+---
+
+## Official Sources
+
+- https://reactrouter.com/en/main/start/overview
+- https://reactrouter.com/en/main/routers/create-browser-router
+- https://reactrouter.com/en/main/route/route
+- https://reactrouter.com/en/main/route/loader
+- https://reactrouter.com/en/main/route/action
+- https://reactrouter.com/en/main/route/lazy

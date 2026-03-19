@@ -1,6 +1,12 @@
 ---
 name: react-syntax-forms
-description: "Guides React form handling including controlled vs uncontrolled inputs, form submission patterns, React 19 form actions with <form action>, useFormStatus for pending state, useActionState for action results, useOptimistic for optimistic UI, file inputs, and validation patterns. Activates when building forms, handling form submission, implementing form validation, or using React 19 form actions."
+description: >
+  Use when building forms, handling form submission, implementing form validation,
+  or using React 19 form actions. Prevents the common mistake of mixing controlled
+  and uncontrolled patterns or missing form accessibility. Covers controlled vs
+  uncontrolled inputs, React 19 form actions, useFormStatus, useActionState,
+  useOptimistic, file inputs, validation patterns.
+  Keywords: form, controlled, uncontrolled, useFormStatus, useActionState, action.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

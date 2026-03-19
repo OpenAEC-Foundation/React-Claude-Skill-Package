@@ -1,6 +1,12 @@
 ---
 name: react-syntax-context
-description: "Guides React Context API including createContext with TypeScript generics, useContext for consuming context, Provider pattern, default values, multiple contexts, context performance optimization, and avoiding unnecessary re-renders. Activates when sharing state across components without prop drilling, implementing theme/auth/locale providers, or optimizing context performance."
+description: >
+  Use when sharing state across components without prop drilling, implementing
+  theme/auth/locale providers, or optimizing context performance. Prevents the
+  common mistake of putting frequently-changing values in context causing
+  unnecessary re-renders. Covers createContext, useContext, Provider pattern,
+  TypeScript generics, default values, multiple contexts, performance.
+  Keywords: createContext, useContext, Provider, context, prop drilling, theme.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

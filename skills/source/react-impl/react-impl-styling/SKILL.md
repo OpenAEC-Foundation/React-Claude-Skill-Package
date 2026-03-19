@@ -1,6 +1,12 @@
 ---
 name: react-impl-styling
-description: "Guides React styling approaches including CSS Modules for scoped styles, Tailwind CSS integration, CSS-in-JS patterns, inline styles with TypeScript, className patterns with clsx/cn, conditional classes, global vs scoped styles, and CSS custom properties. Activates when styling React components, choosing a CSS approach, implementing responsive design, or managing CSS architecture."
+description: >
+  Use when styling React components, choosing a CSS approach, implementing
+  responsive design, or managing CSS architecture. Prevents the common mistake
+  of global style leakage or choosing an incompatible CSS-in-JS library for
+  Server Components. Covers CSS Modules, Tailwind CSS, CSS-in-JS, inline styles,
+  clsx/cn, conditional classes, CSS custom properties.
+  Keywords: CSS Modules, Tailwind, CSS-in-JS, clsx, className, scoped styles.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

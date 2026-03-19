@@ -1,6 +1,12 @@
 ---
 name: react-impl-routing
-description: "Guides React Router v6+ patterns including createBrowserRouter, route configuration, nested routes with Outlet, data loaders and actions, lazy routes for code splitting, protected routes, URL parameters, search parameters, and navigation. Activates when implementing client-side routing, setting up route configuration, handling navigation, or building protected routes."
+description: >
+  Use when implementing client-side routing, setting up route configuration,
+  handling navigation, or building protected routes. Prevents the common mistake
+  of using legacy BrowserRouter instead of the data router API. Covers React
+  Router v6+ createBrowserRouter, nested routes, Outlet, data loaders, actions,
+  lazy routes, URL params, search params.
+  Keywords: React Router, createBrowserRouter, Outlet, loader, action, route.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with React Router 6.4+."
 metadata:
@@ -490,11 +496,4 @@ Data needed before route renders?
 - [references/api-table.md](references/api-table.md) -- React Router hooks and components reference
 - [references/anti-patterns.md](references/anti-patterns.md) -- Common routing mistakes and fixes
 
-### Official Sources
-
-- https://reactrouter.com/en/main/start/overview
-- https://reactrouter.com/en/main/routers/create-browser-router
-- https://reactrouter.com/en/main/route/route
-- https://reactrouter.com/en/main/route/loader
-- https://reactrouter.com/en/main/route/action
-- https://reactrouter.com/en/main/route/lazy
+- [references/api-table.md#official-sources](references/api-table.md#official-sources) -- Official React Router documentation links

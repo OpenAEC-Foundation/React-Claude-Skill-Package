@@ -1,6 +1,11 @@
 ---
 name: react-core-concurrent
-description: "Guides React concurrent rendering features including Suspense for loading states, startTransition and useTransition for non-blocking updates, useDeferredValue for expensive computations, lazy loading with React.lazy, and streaming SSR. Activates when implementing loading states, optimizing perceived performance, handling slow renders, or using Suspense boundaries."
+description: >
+  Use when implementing loading states, optimizing perceived performance, handling
+  slow renders, or adding Suspense boundaries. Prevents the common mistake of
+  blocking the UI with synchronous heavy updates. Covers Suspense, startTransition,
+  useTransition, useDeferredValue, React.lazy, streaming SSR.
+  Keywords: Suspense, useTransition, useDeferredValue, concurrent, lazy, streaming.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

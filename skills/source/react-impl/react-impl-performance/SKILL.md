@@ -1,6 +1,12 @@
 ---
 name: react-impl-performance
-description: "Guides React performance optimization including React.memo for component memoization, useMemo and useCallback for value/function stability, React Compiler automatic memoization (React 19), Profiler for measuring renders, code splitting with React.lazy, bundle analysis, virtualization for long lists, and image optimization patterns. Activates when optimizing render performance, profiling components, reducing bundle size, or implementing code splitting."
+description: >
+  Use when optimizing render performance, profiling components, reducing bundle
+  size, or implementing code splitting. Prevents the common mistake of premature
+  optimization or missing obvious re-render bottlenecks. Covers React.memo,
+  useMemo, useCallback, React Compiler (React 19), Profiler, React.lazy, bundle
+  analysis, virtualization, image optimization.
+  Keywords: React.memo, useMemo, useCallback, code splitting, Profiler, lazy.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

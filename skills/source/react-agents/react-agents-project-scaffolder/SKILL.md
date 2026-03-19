@@ -1,6 +1,12 @@
 ---
 name: react-agents-project-scaffolder
-description: "Generates complete React project structure including Vite configuration, TypeScript setup, component architecture, routing setup, state management, testing infrastructure, styling approach, and recommended folder structure. Activates when scaffolding a new React project, adding React to an existing project, or generating a feature-complete React application structure."
+description: >
+  Use when scaffolding a new React project, adding React to an existing project,
+  or generating a feature-complete application structure. Prevents the common
+  mistake of inconsistent project setup with missing TypeScript, linting, or test
+  configuration. Covers Vite config, TypeScript setup, component architecture,
+  routing, state management, testing infrastructure, folder structure.
+  Keywords: scaffold, Vite, project structure, TypeScript config, folder layout.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript and Vite."
 metadata:

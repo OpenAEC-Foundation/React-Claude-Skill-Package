@@ -4,6 +4,18 @@ All notable changes to the React Claude Skill Package will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [Unreleased]
+
+### Fixed
+- Migrated all 24 YAML descriptions from quoted strings to folded block scalar (`>`) format
+- Rewrote all descriptions to "Use when..." trigger pattern for better skill activation
+- Synchronized 8 masterplan refinement decisions to DECISIONS.md (D-008 through D-015)
+- Added research strategy decisions D-016 and D-017
+- Trimmed react-impl-routing SKILL.md from 500 to 493 lines
+- Fixed hedging language ("ALWAYS consider using" → "ALWAYS use") in react-errors-boundaries
+- Updated ROADMAP.md metrics to reflect actual decision count (17)
+- Added audit lessons L-003 and L-004 to LESSONS.md
+
 ## [1.0.0] - 2026-03-19
 
 ### Added

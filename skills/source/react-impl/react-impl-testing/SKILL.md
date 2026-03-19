@@ -1,6 +1,12 @@
 ---
 name: react-impl-testing
-description: "Guides React testing with React Testing Library and Vitest including render/screen/fireEvent/waitFor patterns, testing hooks with renderHook, testing async operations, accessibility testing, user-event for realistic interactions, act() for state updates, and snapshot testing. Activates when writing component tests, testing hooks, setting up test infrastructure, or debugging test failures."
+description: >
+  Use when writing component tests, testing hooks, setting up test infrastructure,
+  or debugging test failures. Prevents the common mistake of testing implementation
+  details instead of user-visible behavior. Covers React Testing Library, Vitest,
+  render/screen/fireEvent/waitFor, renderHook, user-event, act(), async testing,
+  accessibility testing, snapshot testing.
+  Keywords: Testing Library, Vitest, render, screen, fireEvent, renderHook, act.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript, React Testing Library, and Vitest."
 metadata:

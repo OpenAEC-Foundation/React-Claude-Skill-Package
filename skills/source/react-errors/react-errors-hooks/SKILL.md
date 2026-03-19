@@ -1,6 +1,12 @@
 ---
 name: react-errors-hooks
-description: "Diagnoses and resolves common React hook errors including Rules of Hooks violations, conditional hook calls, missing useEffect dependencies, stale closures, infinite re-render loops, cleanup mistakes, and eslint-plugin-react-hooks warnings. Activates when encountering hook-related errors, infinite loops, stale state issues, or eslint hook warnings."
+description: >
+  Use when encountering hook-related errors, infinite re-render loops, stale
+  state issues, or eslint-plugin-react-hooks warnings. Prevents the common
+  mistake of calling hooks conditionally or missing cleanup in useEffect.
+  Covers Rules of Hooks violations, conditional hook calls, missing dependencies,
+  stale closures, infinite loops, cleanup patterns.
+  Keywords: Rules of Hooks, stale closure, infinite loop, useEffect deps, eslint.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

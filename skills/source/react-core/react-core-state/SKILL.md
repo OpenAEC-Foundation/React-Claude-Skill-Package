@@ -1,6 +1,12 @@
 ---
 name: react-core-state
-description: "Guides React state management architecture including useState vs useReducer selection, state lifting patterns, Context API for cross-cutting concerns, external store integration (Zustand/Jotai), state immutability rules, and server state vs client state distinction. Activates when designing state architecture, choosing state management approach, or solving state-related problems in React applications."
+description: >
+  Use when designing state architecture, choosing between state management
+  approaches, or solving state-related problems. Prevents the common mistake of
+  mutating state directly or choosing the wrong state tool for the complexity
+  level. Covers useState vs useReducer, state lifting, Context API, external
+  stores (Zustand/Jotai), immutability rules, server vs client state.
+  Keywords: useState, useReducer, Zustand, Context, state lifting, immutability.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

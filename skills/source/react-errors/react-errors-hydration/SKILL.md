@@ -1,6 +1,12 @@
 ---
 name: react-errors-hydration
-description: "Diagnoses and resolves React hydration mismatch errors including server/client HTML differences, common causes (Date, Math.random, browser APIs, conditional rendering), suppressHydrationWarning usage, debugging hydration errors, and React 19 hydration improvements. Activates when encountering hydration warnings, debugging SSR/SSG mismatches, or implementing server-rendered React applications."
+description: >
+  Use when encountering hydration warnings, debugging SSR/SSG mismatches, or
+  implementing server-rendered React applications. Prevents the common mistake
+  of rendering environment-dependent content (Date, Math.random, browser APIs)
+  that differs between server and client. Covers hydration mismatch causes,
+  suppressHydrationWarning, debugging strategies, React 19 improvements.
+  Keywords: hydration, SSR, SSG, mismatch, suppressHydrationWarning, server render.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

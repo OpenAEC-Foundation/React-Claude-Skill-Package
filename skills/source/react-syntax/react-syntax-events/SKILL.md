@@ -1,6 +1,12 @@
 ---
 name: react-syntax-events
-description: "Guides React event handling including synthetic event system, TypeScript event type annotations, event handler patterns, form events, keyboard and mouse events, event delegation model, stopPropagation and preventDefault, and custom event patterns. Activates when handling user interactions, typing event handlers, working with form inputs, or implementing keyboard/mouse interactions."
+description: >
+  Use when handling user interactions, typing event handlers with TypeScript,
+  working with form inputs, or implementing keyboard/mouse interactions. Prevents
+  the common mistake of using incorrect event types or accessing pooled event
+  properties asynchronously. Covers synthetic events, TypeScript event annotations,
+  form/keyboard/mouse events, stopPropagation, preventDefault, delegation.
+  Keywords: SyntheticEvent, onClick, onChange, event handler, preventDefault.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

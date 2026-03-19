@@ -1,6 +1,12 @@
 ---
 name: react-impl-project-setup
-description: "Guides React project setup with Vite including TypeScript configuration, project structure conventions, ESLint and Prettier setup, path aliases, environment variables, and recommended folder structure. Activates when creating a new React project, configuring Vite, setting up TypeScript, or establishing project conventions."
+description: >
+  Use when creating a new React project, configuring Vite, setting up TypeScript,
+  or establishing project conventions. Prevents the common mistake of inconsistent
+  tooling setup or missing essential configuration like path aliases and linting.
+  Covers Vite setup, TypeScript config, ESLint, Prettier, path aliases,
+  environment variables, folder structure conventions.
+  Keywords: Vite, TypeScript, ESLint, Prettier, project setup, path aliases.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript and Vite."
 metadata:

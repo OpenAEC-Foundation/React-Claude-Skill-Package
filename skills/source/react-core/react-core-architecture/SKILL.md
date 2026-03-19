@@ -1,6 +1,12 @@
 ---
 name: react-core-architecture
-description: "Guides React application architecture including virtual DOM, fiber reconciler, component tree model, rendering phases (render + commit), element creation, component lifecycle (mount/update/unmount), and React element vs component distinction. Activates when creating React apps, understanding React rendering model, or reasoning about React's component architecture and update cycle."
+description: >
+  Use when reasoning about React's rendering model, understanding the component
+  tree, or debugging unexpected update behavior. Prevents the common mistake of
+  confusing React elements with components or misunderstanding render vs commit
+  phases. Covers virtual DOM, fiber reconciler, rendering phases, element
+  creation, component lifecycle (mount/update/unmount).
+  Keywords: virtual DOM, fiber, reconciler, render phase, commit phase, lifecycle.
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:
