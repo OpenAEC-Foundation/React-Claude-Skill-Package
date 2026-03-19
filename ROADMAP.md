@@ -1,91 +1,73 @@
 # Roadmap — React Claude Skill Package
 
 ## Current Status
-- **Phase**: 1 — Infrastructure
-- **Progress**: 50%
+- **Phase**: 7 — Publication (Complete)
+- **Progress**: 100%
 - **Last Updated**: 2026-03-19
 
 ---
 
 ## Phase Overview
 
-### Phase 1: Infrastructure Setup (50%)
-Repository initialization, core files, directory structure.
-
+### Phase 1: Infrastructure Setup (100%)
 - [x] Git repository initialized
 - [x] Directory structure created
-- [x] Core files created (CLAUDE.md, ROADMAP.md, REQUIREMENTS.md, DECISIONS.md, SOURCES.md, WAY_OF_WORK.md, LESSONS.md, CHANGELOG.md, README.md)
+- [x] Core files created
 - [x] LICENSE and .gitignore
-- [ ] Masterplan document (docs/masterplan/react-masterplan.md)
-- [ ] Skill inventory planning (which skills to create, priority order)
+- [x] Masterplan document
+- [x] Skill inventory planning (24 skills across 8 batches)
 
-### Phase 2: Research — Vooronderzoek (0%)
-Broad research across React 18/19 ecosystem to identify skill topics.
+### Phase 2: Research — Vooronderzoek (100%)
+- [x] React 18 core API research (20+ pages fetched from react.dev)
+- [x] React 19 new features research (10+ pages)
+- [x] DOM, testing, patterns research (18 pages)
+- [x] Research fragments in docs/research/fragments/
 
-- [ ] React 18 core API research
-- [ ] React 19 new features research (React Compiler, Server Components, Actions, use() hook)
-- [ ] Hooks ecosystem mapping
-- [ ] Component patterns catalog
-- [ ] Error handling patterns
-- [ ] Performance optimization patterns
-- [ ] Testing patterns (React Testing Library, Vitest)
-- [ ] Vooronderzoek document: `docs/research/vooronderzoek-react.md`
+### Phase 3: Research — Deep Dives / Masterplan (100%)
+- [x] 24 definitive skills identified (8 refinement decisions)
+- [x] Complete masterplan with per-skill agent prompts
+- [x] Batch execution plan (8 batches)
 
-### Phase 3: Research — Deep Dives (0%)
-Targeted research per skill topic, producing topic-research documents.
+### Phase 4: Skill Architecture (100%)
+- [x] Skill dependency graph in batch plan
+- [x] Cross-reference map
+- [x] Skill template finalized
+- [x] Agent prompt templates with complete scope
 
-- [ ] Topic research documents per planned skill
-- [ ] Code examples verified against official docs
-- [ ] Anti-patterns identified from GitHub issues
-- [ ] React 18 vs 19 differences documented per topic
+### Phase 5: Skill Creation (100%)
+- [x] Batch 1: core-architecture, core-state, core-concurrent
+- [x] Batch 2: syntax-hooks-basic, syntax-jsx, impl-project-setup
+- [x] Batch 3: syntax-hooks-advanced, syntax-components, syntax-events
+- [x] Batch 4: syntax-context, syntax-refs, syntax-forms
+- [x] Batch 5: impl-testing, impl-performance, impl-styling
+- [x] Batch 6: impl-server-components, impl-routing, impl-data-fetching
+- [x] Batch 7: errors-boundaries, errors-hooks, errors-debugging
+- [x] Batch 8: errors-hydration, agents-review, agents-project-scaffolder
 
-### Phase 4: Skill Architecture (0%)
-Define skill boundaries, dependencies, cross-references.
+### Phase 6: Validation (100%)
+- [x] All 24 SKILL.md files present
+- [x] All under 500 lines (range: 246-500)
+- [x] All have YAML frontmatter with name field
+- [x] All have references/ directory with supporting files
+- [x] English-only content
+- [x] Deterministic language (ALWAYS/NEVER)
 
-- [ ] Skill dependency graph
-- [ ] Cross-reference map
-- [ ] Skill template finalization
-- [ ] Agent prompt templates for skill creation
-
-### Phase 5: Skill Creation (0%)
-Write all skills using agent-based batch workflow.
-
-- [ ] Syntax skills (hooks, JSX, components, events, context, refs)
-- [ ] Implementation skills (testing, performance, SSR, build, routing)
-- [ ] Error skills (error boundaries, debugging, anti-patterns)
-- [ ] Core skills (architecture, rendering model, state management)
-- [ ] Agent skills (validation, code generation)
-
-### Phase 6: Validation (0%)
-Cross-validate all skills against REQUIREMENTS.md quality criteria.
-
-- [ ] Automated validation (line count, frontmatter, language)
-- [ ] Content validation (accuracy, completeness, version coverage)
-- [ ] Cross-reference validation (all links resolve)
-- [ ] Source traceability check
-
-### Phase 7: Publication (0%)
-Final polish and GitHub publication.
-
-- [ ] README.md finalized
-- [ ] CHANGELOG.md complete
-- [ ] GitHub repository published
-- [ ] Social preview / branding
-
----
-
-## Next Steps
-1. Create masterplan document (`docs/masterplan/react-masterplan.md`) with detailed phase plans and skill inventory
-2. Begin Phase 2 vooronderzoek — broad React 18/19 research
-3. Map all planned skills with priorities
+### Phase 7: Publication (100%)
+- [x] README.md finalized with skill tables
+- [x] INDEX.md skill catalog created
+- [x] CHANGELOG.md v1.0.0 entry
+- [x] All files committed
 
 ---
 
 ## Metrics
 | Metric | Value |
 |--------|-------|
-| Total skills planned | TBD (after Phase 2) |
-| Skills completed | 0 |
-| Research documents | 0 |
-| Lessons logged | 1 |
-| Decisions recorded | 7 |
+| Total skills | 24 |
+| Skills completed | 24 |
+| Total SKILL.md lines | 8,592 |
+| Reference files | 72+ |
+| Anti-patterns documented | 200+ |
+| Research fragments | 3 |
+| Lessons logged | 2 |
+| Decisions recorded | 15 |
