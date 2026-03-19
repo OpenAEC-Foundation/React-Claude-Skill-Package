@@ -31,3 +31,5 @@ build/
 
 # Claude
 .claude/
+PROMPTS.md
+*.code-workspace
