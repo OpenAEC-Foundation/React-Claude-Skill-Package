@@ -105,6 +105,17 @@ Single technology package — all skills share the `react-` prefix.
 
 ---
 
+## Privacy Protocol (P-000a)
+**PROMPTS.md is PRIVATE** — it contains user session prompts and internal agent task data.
+
+1. PROMPTS.md MUST be listed in `.gitignore` — NEVER commit or push it to GitHub
+2. `.claude/` directory MUST be listed in `.gitignore`
+3. `*.code-workspace` files MUST be listed in `.gitignore`
+4. Before ANY `git push`, verify that `git status` does NOT show PROMPTS.md as staged
+5. If PROMPTS.md was accidentally committed, remove it: `git rm --cached PROMPTS.md`
+
+---
+
 ## Session Start Protocol (P-001)
 EVERY session begins with this sequence:
 
