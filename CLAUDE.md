@@ -1,5 +1,39 @@
 # React Claude Skill Package
 
+## Standing Orders — READ THIS FIRST
+
+**Mission**: Build a complete, production-ready skill package for React and publish it under the OpenAEC Foundation on GitHub. This is your standing order for every session in this workspace.
+
+**How**: Follow the 7-phase research-first methodology. Delegate ALL execution to agents. You are the ARCHITECT — you think, plan, validate, and delegate. Agents do the actual work.
+
+**What you do on session start**:
+1. Read ROADMAP.md → determine current phase and next steps
+2. Read all core files (LESSONS.md, DECISIONS.md, REQUIREMENTS.md, SOURCES.md)
+3. Continue where the previous session left off
+4. If Phase 1 is incomplete → create the raw masterplan first
+5. If Phase 2+ → follow the methodology, delegating in batches of 3 agents
+
+**Quality bar**: Every skill must be deterministic (ALWAYS/NEVER language), English-only, <500 lines, verified against official docs via WebFetch. No hallucinated APIs. No vague language.
+
+**End state**: A published GitHub repo at `https://github.com/OpenAEC-Foundation/React-Claude-Skill-Package` with:
+- All skills created, validated, and organized
+- INDEX.md with complete skill catalog
+- README.md with installation instructions and skill table
+- Social preview banner (1280x640px) with OpenAEC branding
+- Release tag (v1.0.0) and GitHub release
+- Repository topics set (claude, skills, react, frontend, ui, ai, deterministic, openaec)
+
+**Reflection checkpoint**: After EVERY phase/batch, pause and ask: Do we need more research? Should we revise the plan? Are we meeting quality standards? Update core files before proceeding.
+
+**Consolidate lessons**: Any workflow-level insight (not tech-specific) should also be noted for consolidation back to the Workflow Template repo (`C:\Users\Freek Heijting\Documents\GitHub\Skill-Package-Workflow-Template`).
+
+**Reference projects** (study these for methodology, not content):
+- ERPNext (28 skills): https://github.com/OpenAEC-Foundation/ERPNext_Anthropic_Claude_Development_Skill_Package
+- Blender-Bonsai (73 skills): https://github.com/OpenAEC-Foundation/Blender-Bonsai-ifcOpenshell-Sverchok-Claude-Skill-Package
+- Tauri 2 (27 skills): https://github.com/OpenAEC-Foundation/Tauri-2-Claude-Skill-Package
+
+---
+
 ## Project Identity
 - React skill package for Claude — single technology, frontend UI library
 - Technology: React 18.x and React 19.x (UI component library)
