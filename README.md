@@ -1,5 +1,9 @@
 # React Claude Skill Package
 
+<p align="center">
+  <img src="docs/social-preview.png" alt="24 Deterministic Skills for React" width="100%">
+</p>
+
 <div align="center">
 
 **24 deterministic skills for React 18 & 19 development with Claude**
