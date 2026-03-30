@@ -1,0 +1,39 @@
+{
+  "name": "@openaec/react-claude-skill-package",
+  "version": "1.1.0",
+  "description": "24 deterministic Claude skills for React 18 & 19 development — hooks, components, Server Components, testing, performance, and more",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAEC-Foundation/React-Claude-Skill-Package"
+  },
+  "keywords": ["agent-skills", "agentskills", "claude-skills", "react", "react-hooks", "typescript", "frontend"],
+  "agents": {
+    "skills": [
+      { "name": "react-agents-project-scaffolder", "path": "./skills/source/react-agents/react-agents-project-scaffolder" },
+      { "name": "react-agents-review", "path": "./skills/source/react-agents/react-agents-review" },
+      { "name": "react-core-architecture", "path": "./skills/source/react-core/react-core-architecture" },
+      { "name": "react-core-concurrent", "path": "./skills/source/react-core/react-core-concurrent" },
+      { "name": "react-core-state", "path": "./skills/source/react-core/react-core-state" },
+      { "name": "react-errors-boundaries", "path": "./skills/source/react-errors/react-errors-boundaries" },
+      { "name": "react-errors-debugging", "path": "./skills/source/react-errors/react-errors-debugging" },
+      { "name": "react-errors-hooks", "path": "./skills/source/react-errors/react-errors-hooks" },
+      { "name": "react-errors-hydration", "path": "./skills/source/react-errors/react-errors-hydration" },
+      { "name": "react-impl-data-fetching", "path": "./skills/source/react-impl/react-impl-data-fetching" },
+      { "name": "react-impl-performance", "path": "./skills/source/react-impl/react-impl-performance" },
+      { "name": "react-impl-project-setup", "path": "./skills/source/react-impl/react-impl-project-setup" },
+      { "name": "react-impl-routing", "path": "./skills/source/react-impl/react-impl-routing" },
+      { "name": "react-impl-server-components", "path": "./skills/source/react-impl/react-impl-server-components" },
+      { "name": "react-impl-styling", "path": "./skills/source/react-impl/react-impl-styling" },
+      { "name": "react-impl-testing", "path": "./skills/source/react-impl/react-impl-testing" },
+      { "name": "react-syntax-components", "path": "./skills/source/react-syntax/react-syntax-components" },
+      { "name": "react-syntax-context", "path": "./skills/source/react-syntax/react-syntax-context" },
+      { "name": "react-syntax-events", "path": "./skills/source/react-syntax/react-syntax-events" },
+      { "name": "react-syntax-forms", "path": "./skills/source/react-syntax/react-syntax-forms" },
+      { "name": "react-syntax-hooks-advanced", "path": "./skills/source/react-syntax/react-syntax-hooks-advanced" },
+      { "name": "react-syntax-hooks-basic", "path": "./skills/source/react-syntax/react-syntax-hooks-basic" },
+      { "name": "react-syntax-jsx", "path": "./skills/source/react-syntax/react-syntax-jsx" },
+      { "name": "react-syntax-refs", "path": "./skills/source/react-syntax/react-syntax-refs" }
+    ]
+  }
+}

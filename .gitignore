@@ -33,3 +33,4 @@ build/
 .claude/
 PROMPTS.md
 *.code-workspace
+SKILLS_LOG.md

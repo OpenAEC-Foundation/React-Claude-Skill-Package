@@ -139,7 +139,7 @@ function Timer(): JSX.Element {
 
 ## forwardRef (React 18) vs ref Prop (React 19)
 
-### React 18 — forwardRef Required
+### React 18: forwardRef Required
 
 ```typescript
 import { forwardRef, type Ref } from "react";
@@ -164,7 +164,7 @@ const ref = useRef<HTMLInputElement>(null);
 <LabeledInput ref={ref} label="Name" />;
 ```
 
-### React 19 — ref as Regular Prop
+### React 19: ref as Regular Prop
 
 ```typescript
 import { type Ref } from "react";

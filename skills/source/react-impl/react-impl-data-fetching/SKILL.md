@@ -75,7 +75,7 @@ function App() {
 
 ---
 
-## useQuery — Reading Server Data
+## useQuery: Reading Server Data
 
 ```typescript
 import { useQuery } from '@tanstack/react-query';
@@ -119,7 +119,7 @@ function UserProfile({ userId }: { userId: number }) {
 
 ---
 
-## useMutation — Writing Server Data
+## useMutation: Writing Server Data
 
 ```typescript
 import { useMutation, useQueryClient } from '@tanstack/react-query';

@@ -16,7 +16,7 @@ metadata:
 
 # react-errors-hooks
 
-## Quick Reference — Error Diagnostic Table
+## Quick Reference: Error Diagnostic Table
 
 | Symptom | Cause | Fix |
 |---------|-------|-----|
@@ -222,7 +222,7 @@ function ScrollTracker() {
 
 ## useEffect Cleanup Mistakes
 
-### Missing Cleanup — Subscription Leak
+### Missing Cleanup: Subscription Leak
 
 ```typescript
 // WRONG: No cleanup, listener accumulates on every re-render
@@ -237,7 +237,7 @@ useEffect(() => {
 }, [handleResize]);
 ```
 
-### Missing Cleanup — Async Race Condition
+### Missing Cleanup: Async Race Condition
 
 ```typescript
 // WRONG: Stale responses overwrite fresh data
@@ -255,7 +255,7 @@ useEffect(() => {
 }, [userId]);
 ```
 
-### Missing Cleanup — Timer Leak
+### Missing Cleanup: Timer Leak
 
 ```typescript
 // WRONG: Interval never cleared on unmount
@@ -288,7 +288,7 @@ NEVER use `useInsertionEffect` unless you are building a CSS-in-JS library.
 
 ## eslint-plugin-react-hooks
 
-### exhaustive-deps — When to Fix vs Suppress
+### exhaustive-deps: When to Fix vs Suppress
 
 **ALWAYS fix** by default. Suppression is ONLY acceptable in these rare cases:
 

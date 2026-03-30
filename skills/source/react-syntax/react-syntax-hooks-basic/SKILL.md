@@ -36,7 +36,7 @@ metadata:
 import { useState, useEffect, useContext, useRef, useMemo, useCallback, useReducer } from 'react';
 ```
 
-### Critical Warnings — Rules of Hooks
+### Critical Warnings: Rules of Hooks
 
 **NEVER** call hooks inside loops, conditions, nested functions, `try`/`catch`/`finally` blocks, or after conditional `return` statements. React relies on consistent call order to maintain state correctly.
 
@@ -63,7 +63,7 @@ function Profile({ userId }: { userId: string | null }) {
 
 ---
 
-## useState — Local State
+## useState: Local State
 
 ### Signature
 
@@ -97,7 +97,7 @@ const [items, setItems] = useState<string[]>([]);
 
 ---
 
-## useEffect — Side Effects
+## useEffect: Side Effects
 
 ### Signature
 
@@ -160,7 +160,7 @@ useEffect(() => {
 
 ---
 
-## useContext — Context Consumption
+## useContext: Context Consumption
 
 ### Signature
 
@@ -197,7 +197,7 @@ function useTheme(): ThemeContextType {
 
 ---
 
-## useRef — Refs and Mutable Values
+## useRef: Refs and Mutable Values
 
 ### Signature
 
@@ -236,7 +236,7 @@ const divRef = useRef<HTMLDivElement>(null);
 
 ---
 
-## useMemo — Memoize Values
+## useMemo: Memoize Values
 
 ### Signature
 
@@ -262,7 +262,7 @@ const memoized = useMemo<T>(factory: () => T, deps: unknown[]): T;
 
 ---
 
-## useCallback — Memoize Functions
+## useCallback: Memoize Functions
 
 ### Signature
 
@@ -282,7 +282,7 @@ const memoized = useCallback<T extends (...args: any[]) => any>(fn: T, deps: unk
 useCallback(fn, deps)  ===  useMemo(() => fn, deps)
 ```
 
-### Updater Pattern — Remove State Dependencies
+### Updater Pattern: Remove State Dependencies
 
 ```typescript
 // WRONG — deps change every update
@@ -300,7 +300,7 @@ const handleAdd = useCallback((text: string) => {
 
 ---
 
-## useReducer — Complex State
+## useReducer: Complex State
 
 ### Signature
 
