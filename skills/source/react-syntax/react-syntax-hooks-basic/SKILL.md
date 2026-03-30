@@ -6,7 +6,7 @@ description: >
   dependency array entries or forgetting useEffect cleanup. Covers useState,
   useEffect, useContext, useRef, useMemo, useCallback, useReducer, Rules of
   Hooks, dependency arrays, cleanup patterns.
-  Keywords: useState, useEffect, useRef, useMemo, useCallback, useReducer, hooks.
+  Keywords: useState, useEffect, useRef, useMemo, useCallback, useReducer, hooks, useEffect example, useState example, when to use useRef, dependency array, cleanup function..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

@@ -6,7 +6,7 @@ description: >
   and uncontrolled patterns or missing form accessibility. Covers controlled vs
   uncontrolled inputs, React 19 form actions, useFormStatus, useActionState,
   useOptimistic, file inputs, validation patterns.
-  Keywords: form, controlled, uncontrolled, useFormStatus, useActionState, action.
+  Keywords: form, controlled, uncontrolled, useFormStatus, useActionState, action, file upload, form validation, React Hook Form, Formik, Zod, form submit, input handling..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

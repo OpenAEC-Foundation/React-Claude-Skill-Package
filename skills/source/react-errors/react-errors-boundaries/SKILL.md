@@ -6,7 +6,7 @@ description: >
   crash the entire application tree. Covers Error Boundary class components,
   getDerivedStateFromError, componentDidCatch, recovery patterns, nested
   boundaries, placement strategy, error boundary limitations.
-  Keywords: ErrorBoundary, getDerivedStateFromError, componentDidCatch, fallback UI.
+  Keywords: ErrorBoundary, getDerivedStateFromError, componentDidCatch, fallback UI, app crashes, white screen of death, catch error in component, fallback UI, error recovery..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

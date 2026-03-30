@@ -6,7 +6,7 @@ description: >
   mutating state directly or choosing the wrong state tool for the complexity
   level. Covers useState vs useReducer, state lifting, Context API, external
   stores (Zustand/Jotai), immutability rules, server vs client state.
-  Keywords: useState, useReducer, Zustand, Context, state lifting, immutability.
+  Keywords: useState, useReducer, Zustand, Context, state lifting, immutability, Redux, global state, store, Zustand, where to put state, state management choice, prop drilling fix..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

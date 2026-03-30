@@ -6,7 +6,7 @@ description: >
   the common mistake of using incorrect event types or accessing pooled event
   properties asynchronously. Covers synthetic events, TypeScript event annotations,
   form/keyboard/mouse events, stopPropagation, preventDefault, delegation.
-  Keywords: SyntheticEvent, onClick, onChange, event handler, preventDefault.
+  Keywords: SyntheticEvent, onClick, onChange, event handler, preventDefault, onClick, onChange, keyboard event, form event, event types TypeScript, handle click..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

@@ -6,7 +6,7 @@ description: >
   optimization or missing obvious re-render bottlenecks. Covers React.memo,
   useMemo, useCallback, React Compiler (React 19), Profiler, React.lazy, bundle
   analysis, virtualization, image optimization.
-  Keywords: React.memo, useMemo, useCallback, code splitting, Profiler, lazy.
+  Keywords: React.memo, useMemo, useCallback, code splitting, Profiler, lazy, bundle too big, app is slow, too many re-renders, laggy, optimize, reduce bundle size..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

@@ -6,7 +6,7 @@ description: >
   for subscriptions instead of useSyncExternalStore. Covers useId, useTransition,
   useDeferredValue, useSyncExternalStore, useInsertionEffect, useDebugValue,
   React 19 use(), useActionState, useOptimistic, useFormStatus.
-  Keywords: useId, useSyncExternalStore, use(), useActionState, useOptimistic.
+  Keywords: useId, useSyncExternalStore, use(), useActionState, useOptimistic, custom hook, external store, form status, optimistic update, advanced React patterns..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

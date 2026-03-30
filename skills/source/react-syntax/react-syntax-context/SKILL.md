@@ -6,7 +6,7 @@ description: >
   common mistake of putting frequently-changing values in context causing
   unnecessary re-renders. Covers createContext, useContext, Provider pattern,
   TypeScript generics, default values, multiple contexts, performance.
-  Keywords: createContext, useContext, Provider, context, prop drilling, theme.
+  Keywords: createContext, useContext, Provider, context, prop drilling, theme, share data between components, avoid prop drilling, theme provider, auth context, global data..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

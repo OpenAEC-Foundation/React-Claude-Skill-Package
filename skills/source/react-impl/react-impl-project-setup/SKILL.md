@@ -6,7 +6,7 @@ description: >
   tooling setup or missing essential configuration like path aliases and linting.
   Covers Vite setup, TypeScript config, ESLint, Prettier, path aliases,
   environment variables, folder structure conventions.
-  Keywords: Vite, TypeScript, ESLint, Prettier, project setup, path aliases.
+  Keywords: Vite, TypeScript, ESLint, Prettier, project setup, path aliases, Vite React, create new project, TypeScript setup, ESLint config, folder structure..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript and Vite."
 metadata:

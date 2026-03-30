@@ -6,7 +6,7 @@ description: >
   using incorrect prop typing or missing forwardRef when exposing DOM elements.
   Covers function component typing, children patterns, React.memo, forwardRef,
   React.lazy, createPortal, compound components, render props, HOCs.
-  Keywords: component, props, children, forwardRef, React.memo, Portal, lazy.
+  Keywords: component, props, children, forwardRef, React.memo, Portal, lazy, create component, TypeScript props, children prop, wrap component, higher-order component..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

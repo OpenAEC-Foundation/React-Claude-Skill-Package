@@ -6,7 +6,7 @@ description: >
   of global style leakage or choosing an incompatible CSS-in-JS library for
   Server Components. Covers CSS Modules, Tailwind CSS, CSS-in-JS, inline styles,
   clsx/cn, conditional classes, CSS custom properties.
-  Keywords: CSS Modules, Tailwind, CSS-in-JS, clsx, className, scoped styles.
+  Keywords: CSS Modules, Tailwind, CSS-in-JS, clsx, className, scoped styles, CSS in React, Tailwind setup, CSS Modules, styled-components, scoped styles, dark mode CSS..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

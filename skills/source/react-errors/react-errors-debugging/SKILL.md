@@ -6,7 +6,7 @@ description: >
   mistake of ignoring React warnings or misdiagnosing Strict Mode behavior as
   bugs. Covers React DevTools, Strict Mode, console warnings, Profiler, component
   stack traces, development vs production error differences.
-  Keywords: DevTools, Strict Mode, Profiler, console warnings, stack traces.
+  Keywords: DevTools, Strict Mode, Profiler, console warnings, stack traces, white screen, blank page, nothing renders, component not showing, React DevTools, double render..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

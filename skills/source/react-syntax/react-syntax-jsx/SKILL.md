@@ -6,7 +6,7 @@ description: >
   using unstable keys (like array index) or missing key props on list items.
   Covers JSX expressions, conditional rendering, list rendering with keys,
   fragments, TypeScript generics, spread attributes.
-  Keywords: JSX, TSX, conditional rendering, key, Fragment, map, expressions.
+  Keywords: JSX, TSX, conditional rendering, key, Fragment, map, expressions, conditional render, show if true, loop over array, render list, key prop, Fragment..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

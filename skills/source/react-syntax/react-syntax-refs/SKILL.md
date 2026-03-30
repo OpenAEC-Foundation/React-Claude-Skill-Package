@@ -6,7 +6,7 @@ description: >
   Prevents the common mistake of using refs for values that should trigger
   re-renders. Covers useRef, forwardRef, useImperativeHandle, callback refs,
   React 19 ref cleanup, React 19 ref as prop.
-  Keywords: useRef, forwardRef, useImperativeHandle, callback ref, DOM access.
+  Keywords: useRef, forwardRef, useImperativeHandle, callback ref, DOM access, access DOM element, focus input, scroll to element, measure element, ref callback..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

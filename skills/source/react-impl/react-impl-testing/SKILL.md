@@ -6,7 +6,7 @@ description: >
   details instead of user-visible behavior. Covers React Testing Library, Vitest,
   render/screen/fireEvent/waitFor, renderHook, user-event, act(), async testing,
   accessibility testing, snapshot testing.
-  Keywords: Testing Library, Vitest, render, screen, fireEvent, renderHook, act.
+  Keywords: Testing Library, Vitest, render, screen, fireEvent, renderHook, act, test component, Vitest, React Testing Library, test button click, async test, mock API..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript, React Testing Library, and Vitest."
 metadata:

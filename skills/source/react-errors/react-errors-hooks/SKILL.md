@@ -6,7 +6,7 @@ description: >
   mistake of calling hooks conditionally or missing cleanup in useEffect.
   Covers Rules of Hooks violations, conditional hook calls, missing dependencies,
   stale closures, infinite loops, cleanup patterns.
-  Keywords: Rules of Hooks, stale closure, infinite loop, useEffect deps, eslint.
+  Keywords: Rules of Hooks, stale closure, infinite loop, useEffect deps, eslint, too many re-renders, Maximum update depth, exhaustive-deps warning, hook error, infinite loop fix..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

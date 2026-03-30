@@ -5,7 +5,7 @@ description: >
   slow renders, or adding Suspense boundaries. Prevents the common mistake of
   blocking the UI with synchronous heavy updates. Covers Suspense, startTransition,
   useTransition, useDeferredValue, React.lazy, streaming SSR.
-  Keywords: Suspense, useTransition, useDeferredValue, concurrent, lazy, streaming.
+  Keywords: Suspense, useTransition, useDeferredValue, concurrent, lazy, streaming, loading spinner, skeleton screen, slow render fix, non-blocking update, lazy load..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

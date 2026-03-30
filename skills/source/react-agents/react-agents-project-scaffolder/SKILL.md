@@ -6,7 +6,7 @@ description: >
   mistake of inconsistent project setup with missing TypeScript, linting, or test
   configuration. Covers Vite config, TypeScript setup, component architecture,
   routing, state management, testing infrastructure, folder structure.
-  Keywords: scaffold, Vite, project structure, TypeScript config, folder layout.
+  Keywords: scaffold, Vite, project structure, TypeScript config, folder layout, new React app, create project, project template, getting started, bootstrap React..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript and Vite."
 metadata:

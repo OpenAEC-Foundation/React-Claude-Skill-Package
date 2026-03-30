@@ -6,7 +6,7 @@ description: >
   of using legacy BrowserRouter instead of the data router API. Covers React
   Router v6+ createBrowserRouter, nested routes, Outlet, data loaders, actions,
   lazy routes, URL params, search params.
-  Keywords: React Router, createBrowserRouter, Outlet, loader, action, route.
+  Keywords: React Router, createBrowserRouter, Outlet, loader, action, route, protected route, login redirect, auth guard, private page, page navigation, nested routes..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with React Router 6.4+."
 metadata:

@@ -6,7 +6,7 @@ description: >
   of rendering environment-dependent content (Date, Math.random, browser APIs)
   that differs between server and client. Covers hydration mismatch causes,
   suppressHydrationWarning, debugging strategies, React 19 improvements.
-  Keywords: hydration, SSR, SSG, mismatch, suppressHydrationWarning, server render.
+  Keywords: hydration, SSR, SSG, mismatch, suppressHydrationWarning, server render, hydration warning, SSR mismatch, server client different, content mismatch, Next.js hydration..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

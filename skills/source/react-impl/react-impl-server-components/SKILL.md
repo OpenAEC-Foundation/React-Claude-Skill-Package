@@ -6,7 +6,7 @@ description: >
   mistake of using hooks or browser APIs in Server Components. Covers 'use server'
   and 'use client' directives, Server Actions, serialization rules, composition
   across server/client, Next.js integration.
-  Keywords: Server Components, use client, use server, Server Actions, RSC, Next.js.
+  Keywords: Server Components, use client, use server, Server Actions, RSC, Next.js, Server Components, use client, use server, Next.js RSC, server-side rendering..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x (partial) or 19.x with a supporting framework (Next.js 13+)."
 metadata:

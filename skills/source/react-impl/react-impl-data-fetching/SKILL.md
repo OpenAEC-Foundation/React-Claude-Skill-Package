@@ -6,7 +6,7 @@ description: >
   mistake of fetching in useEffect without proper caching or race condition
   handling. Covers TanStack Query, useQuery, useMutation, Suspense, React 19
   use() hook, caching, optimistic updates, pagination.
-  Keywords: TanStack Query, useQuery, useMutation, fetch, use(), server state.
+  Keywords: TanStack Query, useQuery, useMutation, fetch, use(), server state, Axios, API call, fetch data, loading spinner, how to call API, server state, caching API..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

@@ -6,7 +6,7 @@ description: >
   type safety gaps, performance anti-patterns, or accessibility issues. Covers
   hooks compliance, TypeScript safety, Server Component boundaries, state
   management, event cleanup, testing patterns.
-  Keywords: code review, validation, Rules of Hooks, anti-patterns, accessibility.
+  Keywords: code review, validation, Rules of Hooks, anti-patterns, accessibility, review React code, check for bugs, anti-pattern scan, code quality, accessibility check..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:

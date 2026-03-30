@@ -6,7 +6,7 @@ description: >
   confusing React elements with components or misunderstanding render vs commit
   phases. Covers virtual DOM, fiber reconciler, rendering phases, element
   creation, component lifecycle (mount/update/unmount).
-  Keywords: virtual DOM, fiber, reconciler, render phase, commit phase, lifecycle.
+  Keywords: virtual DOM, fiber, reconciler, render phase, commit phase, lifecycle, how React works, rendering, virtual DOM, component tree, why does it re-render..
 license: MIT
 compatibility: "Designed for Claude Code. Requires React 18.x or 19.x with TypeScript."
 metadata:
